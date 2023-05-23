@@ -1,0 +1,105 @@
+@font-face {
+    font-family: Anand;
+    src: url(./fonts/AnandaBlackPersonalUseRegular-rg9Rx.ttf);
+    font-family: ivy;
+    src:url(./fonts/64288ea7be3b5975ab2825b5_ivypresto-regular-custom.otf);
+}
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    color: #fff;
+    font-family: Itim;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#main{
+    background-color: black;
+}
+#page1{
+    min-height: 100vh;
+    width: 100%;
+    position: relative;
+}
+#nav{
+    height: 200px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 80px;
+    z-index: 99;
+    position: fixed;
+    mix-blend-mode: difference;
+}
+#nav h5{
+    font-size: 13px;
+    letter-spacing: 1px;
+    font-weight: 500;
+    font-family: Inter;
+}
+#menu{
+    height: 20px;
+    width: 30px;
+    flex-direction: column;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#line1{
+    width: 32px;
+    border: 1.8px solid #fff;
+}
+#line2{
+    width: 32px;
+    border: 1.7px solid #fff;
+}
+#bg{
+    min-height: 100vh;
+    width: 100%;
+    padding-top: 70px;
+    /* position: fixed; */
+}
+#bg p{
+    font-family: Inter;
+    font-size: 12px;
+    line-height: 0.6cm;
+    text-align: center;
+    letter-spacing: 0.08cm;
+    word-spacing: 0.1cm;
+    padding-top: 60px;
+}
+#bg>h1{
+    margin-top: 30px;
+    line-height: 0.7;
+    font-size: 19.5vw;
+    color:#fff;
+    letter-spacing: 5px;
+    font-family: ivy;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 100;
+
+}
+#bg>h2{
+    line-height: -10;
+    font-size: 17.5vw;
+    letter-spacing: 0.8cm;
+    color: #fff;
+    font-family: Inter;
+    text-transform: uppercase;
+    text-align: center;
+}
+#page1 #img{
+    background-image: url("https://uploads-ssl.webflow.com/64288ea7be3b591ebd282598/643567645e1dcede0434aa3c_sdad-p-2000.jpg");
+    width: 470px;
+    height: 100vh;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%,-10%);
+    background-size: cover;
+    background-position: center;
+    overflow-y: hidden;
+}
